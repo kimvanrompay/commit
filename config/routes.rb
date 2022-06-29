@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  get 'en/home'
+  root 'en#home'
   get 'en/how'
   get 'en/why'
   get 'en/who'
